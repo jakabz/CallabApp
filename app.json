@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CollabApp",
-    "slug": "CollabApp",
+    "slug": "collabapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c73c5b75-f907-4978-945a-27136d1c2320"
+      }
+    },
+    "owner": "jakabz"
   }
 }
